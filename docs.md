@@ -122,6 +122,6 @@ To use a while loop, do:
 
 ```a = a fuse(" ")``` (Makes the "a" variable the string from joining "a" variable by " ")
 
-```a = a index(43)``` (Makes the "a" variable the leftmost index of the value 43 from the "a" array)
+```a = a index("43")``` (Makes the "a" variable the leftmost index of the value "43" from the "a" string)
 
-```a = a rindex(43)``` (Makes the "a" variable the rightmost index of the value 43 from the "a" array)
+```a = a rindex("43")``` (Makes the "a" variable the rightmost index of the value "43" from the "a" string) (note that rindex does *not* work on arrays)
