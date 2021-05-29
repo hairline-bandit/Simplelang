@@ -1,4 +1,4 @@
-### Tabs are spaces
+### Spaces take place of tabs
 
 To print something, do:
 
