@@ -75,7 +75,7 @@ for line in content:
                 break
         new = prep(line)
         new = transform(new)
-        if " push(" not in new and " pop(" not in new and " delete(" not in new and " split(" not in new and " fuse(" not in new and " index(" not in new and " rindex" not in new:
+        if " push(" not in new and " pop(" not in new and " delete(" not in new and " split(" not in new and " fuse(" not in new and " index(" not in new and " rindex(" not in new:
             file.write(new + "\n")
         elif " push(" in new:
             file.write(new.split(" ")[0] + ".append(" + new[new.index("push(") + len("push("): new.rindex(")")] + ")" + "\n")
