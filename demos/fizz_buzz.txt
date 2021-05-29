@@ -1,0 +1,15 @@
+declaref run parameters(n)
+ for i from(1, n)
+  if condition(i % 15 == 0)
+   write "FizzBuzz"
+  elseif condition(i % 3 == 0)
+   write "Fizz"
+  elseif condition(i % 5 == 0)
+   write "Buzz"
+  else
+   write i
+
+declare a = 0
+read "Enter a number: " a
+a = integer(a)
+run(a)
