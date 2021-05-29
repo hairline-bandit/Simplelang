@@ -1,4 +1,4 @@
-###Tabs are spaces
+### Tabs are spaces
 
 To print something, do:
 
@@ -110,7 +110,7 @@ To use a while loop, do:
 
 ```while condition(true)```
 
-##Built ins
+## Built ins
 
 ```a = push(5)``` (Appends the value 5 onto the end of the "a" array)
 
